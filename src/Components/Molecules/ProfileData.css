@@ -1,0 +1,72 @@
+.container-profile-data {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.5vw;
+    width: 35vw;
+    /* height: 40vh; */
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .5vh;
+}
+
+.profile-picture {
+    width: 9vw;
+    aspect-ratio: 1/1;
+    background-color: aquamarine;
+    border-radius: 50vw;
+    background-image: url('../Assets/Profile-Img.jpeg');
+    background-size: cover;
+    background-position: 50% 24%;
+}
+
+.name {
+    margin: 0;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .5vh;
+}
+
+.location {
+    color: rgb(155, 154, 154);
+    font-family: 'Helvetica 45 Light', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.buttons>a {
+    font-family: 'Helvetica 65 Medium', sans-serif;
+    padding: .46em 1em;
+    border-radius: .5vw;
+    box-shadow: 0px 0px 0px 1px #e7e7e9 inset;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.status-badge {
+    color: #4D44C6;
+    background-color: rgba(77, 68, 198, .1);
+    border-radius: 50vw;
+    padding: .24em 1em;
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 280%;
+}

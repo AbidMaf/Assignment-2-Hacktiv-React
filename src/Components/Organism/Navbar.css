@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+    width: 100vw;
+    height: 10vh;
+    box-shadow: inset 0px -1px 0px #f3f3f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+}
+
+.nav-menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 1.3vw;
+}
+
+.logo>img {
+    width: 76px;
+    height: 30px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-links {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links>li {
+    list-style: none;
+    margin: 0 .72vw;
+    display: block;
+    height: 100%;
+}
+
+.nav-link {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 50%;
+    height: 100%;
+}
+
+.nav-profile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    flex-direction: row-reverse;
+    gap: 1vw;
+}
+
+.upload-btn {
+    background-color: #ea4c89;
+    color: white;
+    padding: .46em 1em;
+    font-weight: 600;
+    border: none;
+    border-radius: .5vw;
+}
+
+.profile-photo {
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    background-color: aquamarine;
+    background-image: url('../Assets/Profile-Img.jpeg');
+    background-position: 50% 24%;
+    background-size: cover;
+}
+
+.search-bar {
+    background-color: #f3f3f4;
+    border-radius: .5vw;
+    padding: .5vw;
+}
+
+.search-input {
+    background-color: #f3f3f4;
+    border: none;
+    width: 8vw;
+    min-width: 75px;
+    outline: none;
+}

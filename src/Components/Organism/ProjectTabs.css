@@ -1,0 +1,33 @@
+.menu-list {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    gap: 2.4vw;
+    padding-bottom: 1.6vh;
+    box-shadow: inset 0px -1px 0px #f3f3f4;
+    list-style: none;
+}
+
+.menu-items {
+    display: inline-block;
+    width: fit-content;
+}
+
+.menu-item {
+    margin-right: 8px;
+}
+
+.menu-item {
+    color: rgb(155, 154, 154);
+    text-decoration: none;
+}
+
+.active{
+    color: black !important;
+    font-weight: 600;
+}

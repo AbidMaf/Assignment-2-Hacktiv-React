@@ -1,0 +1,27 @@
+.container-organisation {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.heading-organisation {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+}
+
+.clickable-organisation {
+
+}
+
+.image-profile {
+    min-width: 36px;
+    max-width: 72px;
+    width: 15vw;
+    aspect-ratio: 1 / 1;
+    background-color: black;
+    border-radius: 50vw;
+    background-size: cover;
+    margin-right: 8px;
+    margin-bottom: 16px;
+}

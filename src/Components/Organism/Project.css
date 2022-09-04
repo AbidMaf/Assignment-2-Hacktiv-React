@@ -1,0 +1,48 @@
+.project-item {
+    width: fit-content;
+    min-width: 48%;
+    border-radius: .5vw;
+    box-shadow: 0px 0px 0px 1px #e7e7e9 inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.2em 1.2em;
+    height: 20vh;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+.title {
+    display: block;
+    font-family: 'Helvetica 65', sans-serif;
+    font-size: 1.4em;
+}
+
+.visibility {
+    color: #4D44C6;
+    background-color: rgba(77, 68, 198, .1);
+    border-radius: 50vw;
+    padding: 0em .8em;
+    font-weight: bold;
+    font-size: .6em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 280%;
+    font-family: 'Helvetica 65 light', sans-serif;
+}
+
+.project-description {
+    font-size: .8em;
+    font-family: 'Helvetica 65 light', sans-serif;
+
+}
+
+.language-name {
+    font-size: .8em;
+}
